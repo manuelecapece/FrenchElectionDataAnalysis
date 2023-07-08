@@ -927,7 +927,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;100.24;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Guyane;;Produits manufacturés;Non;1769744
 2023-02-01;83.81;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Guyane;;Produits manufacturés : Produits de santé;Non;1769746
 2023-02-01;120.92;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Guyane;;Alimentation y compris tabac;Non;1769755
-2023-03-01;4.8;P;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Produits manufacturés;Non;1761329
 2022-11-01;110.07;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Services;Non;1764296
 2022-11-01;10.8;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France métropolitaine;;Alimentation y compris tabac;Non;1768609
 2022-11-01;-1.4;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France métropolitaine;;Services : Communications;Non;1768615
@@ -1387,7 +1386,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;100.92;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Produits manufacturés;Non;10760791
 2023-02-01;106.4;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Ensemble hors tabac;Non;10760805
 2023-02-01;14.1;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Énergie;Non;1761330
-2023-03-01;2.9;P;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Services;Non;1761331
 2022-11-01;5.9;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ménages urbains dont le chef est ouvrier ou employé;France;;Ensemble;Non;1768559
 2022-11-01;2.8;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Produits manufacturés : Habillement et chaussures;Non;1768567
 2022-11-01;5.9;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Autres produits manufacturés;Non;1768569
@@ -3656,7 +3654,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;4.7;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France métropolitaine;;Produits manufacturés;Non;1768599
 2023-02-01;1.2;A;Indice des prix à la consommation;Variations mensuelles;Base 2015;Ensemble des ménages;France;;Produits manufacturés hors habillement, biens durables et produits de santé;Non;1768644
 2023-02-01;110.7;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Guadeloupe;;Services;Non;1769703
-2023-03-01;124.65;P;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Alimentation : Autres produits alimentaires;Non;1759965
 2022-11-01;126.72;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;12.7.0.4;Autres frais et services n.c.a.;Non;1764282
 2022-11-01;143.54;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Alimentation : Produits frais;Non;1764288
 2022-11-01;10.4;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Alimentation y compris restaurants, cantines, cafés;Non;1768584
@@ -5436,7 +5433,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;113.04;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;La réunion;;Autres services;Non;1769778
 2023-02-01;107.67;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;La réunion;;Ensemble hors énergie;Non;1769782
 2023-02-01;15.0;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Alimentation : Produits frais;Non;1761327
-2023-03-01;105.07;P;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Produits manufacturés;Non;1759966
 2022-10-01;102.92;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;04.1.1.0;Loyers effectivement payés par les locataires;Non;1763532
 2022-10-01;87.25;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;09.1.2;Matériel photographique et cinématographique et appareils optiques;Non;1763704
 2022-10-01;113.42;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;09.4.1.1 - Services récréatifs et sportifs;Fréquentation;Non;1763746
@@ -7777,7 +7773,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;91.15;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;La réunion;;Services : Transports;Non;1769785
 2023-02-01;113.16;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Alimentation;Non;10760788
 2023-02-01;104.52;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Services;Non;10760797
-2023-03-01;15.8;P;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Alimentation;Non;1761326
 2022-11-01;12.2;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France métropolitaine;;Alimentation;Non;1768596
 2022-11-01;0.5;A;Indice des prix à la consommation;Variations mensuelles;Base 2015;Ensemble des ménages;France;;Autres produits manufacturés;Non;1768627
 2022-11-01;0.2;A;Indice des prix à la consommation;Variations mensuelles;Base 2015;Ensemble des ménages;France;;Services : Loyers, eau et enlèvement des ordures ménagères;Non;1768631
@@ -8710,9 +8705,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;101.3;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Produits manufacturés : Produits de santé;Non;10760793
 2023-02-01;104.23;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Autres produits manufacturés;Non;10760794
 2023-02-01;104.52;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Produits manufacturés y compris énergie;Non;10760803
-2023-03-01;4.9;P;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Énergie;Non;1761330
-2023-03-01;116.72;P;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Ensemble;Non;1759970
-2023-03-01;156.87;P;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Énergie;Non;1759967
 2022-11-01;108.1;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;12.7.0;Autres services n.c.a.;Non;1764278
 2022-11-01;6.2;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France métropolitaine;;Ensemble;Non;1768594
 2022-11-01;5.9;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France métropolitaine;;Autres produits manufacturés;Non;1768602
@@ -9156,7 +9148,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;90.38;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;La réunion;;Services : Transports et communications;Non;1769777
 2023-02-01;6.3;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Ensemble;Non;1761313
 2023-02-01;103.49;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Produits manufacturés;Non;1759966
-2023-03-01;111.38;P;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Services;Non;1759968
 2022-11-01;106.04;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Services : Loyers, eau et enlèvement des ordures ménagères;Non;1764297
 2022-11-01;6.0;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ménages urbains dont le chef est ouvrier ou employé;France;;Ensemble hors tabac;Non;1768560
 2022-11-01;108.63;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Martinique;;Ensemble hors énergie;Non;1769734
@@ -10230,7 +10221,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;141.44;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Martinique;;Produits frais;Non;1769718
 2023-02-01;95.19;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Martinique;;Services : Communications;Non;1769738
 2023-02-01;106.3;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;La réunion;;Services;Non;1769774
-2023-03-01;16.6;P;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Alimentation : Produits frais;Non;1761327
 2022-11-01;115.87;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;12.7.0.3;Services funéraires;Non;1764281
 2022-11-01;-1.4;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Services : Communications;Non;1768588
 2022-11-01;4.7;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Produits manufacturés hors habillement et chaussures : var/mois corresp. De l’année préc.;Non;10607632
@@ -10720,7 +10710,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;6.5;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Autres produits manufacturés;Non;1768569
 2023-02-01;13.2;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Alimentation y compris tabac;Non;1768576
 2023-02-01;106.24;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Ensemble hors produits frais;Non;10760769
-2023-03-01;157.15;P;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Alimentation : Produits frais;Non;1759964
 2022-11-01;102.31;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;12.7.0.2;Services juridiques et de comptabilité;Non;1764280
 2022-11-01;123.7;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Supercarburant sans plomb indice d'octane 98;Non;1764284
 2022-11-01;103.58;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Produits manufacturés;Non;1764290
@@ -11481,7 +11470,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;153.05;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Alimentation : Produits frais;Non;1764288
 2023-02-01;0.9;A;Indice des prix à la consommation;Variations mensuelles;Base 2015;Ensemble des ménages;France;;Autres produits manufacturés;Non;1768627
 2023-02-01;105.21;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Guadeloupe;;Produits manufacturés;Non;1769696
-2023-03-01;7.8;P;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Tabac;Non;1761332
 2022-11-01;126.89;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Supercarburant sans plomb indice d'octane 95;Non;1764285
 2022-11-01;156.31;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Énergie : Produits pétroliers;Non;1764295
 2022-11-01;0.4;A;Indice des prix à la consommation;Variations mensuelles;Base 2015;Ensemble des ménages;France;;Ensemble hors produits frais;Non;1768641
@@ -11618,8 +11606,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;137.44;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Guyane;;Énergie;Non;1769748
 2023-02-01;105.35;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Guyane;;Services de santé;Non;1769752
 2023-02-01;1.0;A;Indice des prix à la consommation;Variations mensuelles;Base 2015;Ensemble des ménages;France;;Ensemble;Non;1768619
-2023-03-01;5.6;P;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Ensemble;Non;1761313
-2023-03-01;128.98;P;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Alimentation;Non;1759963
 2022-11-01;108.1;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;12.7;Autres services n.c.a.;Non;1764277
 2022-11-01;0.1;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Services de santé;Non;1768574
 2022-11-01;5.9;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Produits manufacturés hors habillement, biens durables et produits de santé;Non;1768586
@@ -12285,7 +12271,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;95.64;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;La réunion;;Services : Communications;Non;1769786
 2023-02-01;106.41;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Ensemble des produits;Non;10760786
 2023-02-01;104.34;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Services : Loyers, eau et enlèvement des ordures ménagères;Non;10760798
-2023-03-01;167.94;P;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Tabac;Non;1759969
 2022-10-01;109.23;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;02.1.1.1;Spiritueux et liqueurs;Non;1763944
 2022-10-01;110.91;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;07.1.1;Voitures automobiles;Non;1764092
 2022-10-01;120.43;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;07.2.2.2;Essence;Non;1764106
@@ -12454,8 +12439,6 @@ Période;Valeur;Code;Type;Sous-type;Base;Population;Zone concernée;Code COICOP;
 2023-02-01;109.56;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;La réunion;;Ensemble des produits;Non;1769763
 2023-02-01;106.91;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;Mayotte;;Tabac;Non;10760787
 2023-02-01;156.47;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France;;Énergie;Non;1759967
-2023-03-01;15.6;P;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Alimentation : Autres produits alimentaires;Non;1761328
-2023-03-01;0.8;P;Indice des prix à la consommation;Variations mensuelles;Base 2015;Ensemble des ménages;France;;Ensemble;Non;1768619
 2022-11-01;154.24;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Énergie;Non;1764294
 2022-11-01;111.19;A;Indice des prix à la consommation;Valeurs mensuelles;Base 2015;Ensemble des ménages;France métropolitaine;;Ensemble hors énergie;Non;1764304
 2022-11-01;10.7;A;Indice des prix à la consommation;Glissement annuel;Base 2015;Ensemble des ménages;France;;Alimentation y compris tabac;Non;1768576
