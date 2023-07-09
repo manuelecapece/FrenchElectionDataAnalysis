@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='prix-consommation_cleaned' inline='true' name='federated.0v3fzdb1t0yng21bn3ucy1jydjem' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='prix-consommation_cleaned' name='textscan.1jlzegu0e3k7zs1avrn4t1bx48wu'>
+            <connection class='textscan' directory='H:/Drive condivisi/Progetto Big Data/DataSet Puliti' filename='prix-consommation_cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1jlzegu0e3k7zs1avrn4t1bx48wu' name='prix-consommation_cleaned.csv' table='[prix-consommation_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+            <column datatype='date' name='Période' ordinal='0' />
+            <column datatype='real' name='Valeur' ordinal='1' />
+            <column datatype='string' name='Code' ordinal='2' />
+            <column datatype='string' name='Type' ordinal='3' />
+            <column datatype='string' name='Sous-type' ordinal='4' />
+            <column datatype='string' name='Base' ordinal='5' />
+            <column datatype='string' name='Population' ordinal='6' />
+            <column datatype='string' name='Zone concernée' ordinal='7' />
+            <column datatype='string' name='Code COICOP' ordinal='8' />
+            <column datatype='string' name='Désignation COICOP' ordinal='9' />
+            <column datatype='string' name='Série arrêtée' ordinal='10' />
+            <column datatype='integer' name='Référence INSEE' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1jlzegu0e3k7zs1avrn4t1bx48wu' name='prix-consommation_cleaned.csv' table='[prix-consommation_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+            <column datatype='date' name='Période' ordinal='0' />
+            <column datatype='real' name='Valeur' ordinal='1' />
+            <column datatype='string' name='Code' ordinal='2' />
+            <column datatype='string' name='Type' ordinal='3' />
+            <column datatype='string' name='Sous-type' ordinal='4' />
+            <column datatype='string' name='Base' ordinal='5' />
+            <column datatype='string' name='Population' ordinal='6' />
+            <column datatype='string' name='Zone concernée' ordinal='7' />
+            <column datatype='string' name='Code COICOP' ordinal='8' />
+            <column datatype='string' name='Désignation COICOP' ordinal='9' />
+            <column datatype='string' name='Série arrêtée' ordinal='10' />
+            <column datatype='integer' name='Référence INSEE' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Période</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Période]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Période</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Valeur</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Valeur]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Valeur</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sous-type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sous-type]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Sous-type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Base]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Base</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zone concernée</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Zone concernée]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Zone concernée</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code COICOP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code COICOP]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Code COICOP</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Désignation COICOP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Désignation COICOP]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Désignation COICOP</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Série arrêtée</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Série arrêtée]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Série arrêtée</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Référence INSEE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Référence INSEE]</local-name>
+            <parent-name>[prix-consommation_cleaned.csv]</parent-name>
+            <remote-alias>Référence INSEE</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='prix-consommation_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;IT&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='prix-consommation_cleaned.csv' id='prix-consommation_cleaned.csv_A483277DDA1B44F888AB2EF41EB74FC5'>
+            <properties context=''>
+              <relation connection='textscan.1jlzegu0e3k7zs1avrn4t1bx48wu' name='prix-consommation_cleaned.csv' table='[prix-consommation_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+                  <column datatype='date' name='Période' ordinal='0' />
+                  <column datatype='real' name='Valeur' ordinal='1' />
+                  <column datatype='string' name='Code' ordinal='2' />
+                  <column datatype='string' name='Type' ordinal='3' />
+                  <column datatype='string' name='Sous-type' ordinal='4' />
+                  <column datatype='string' name='Base' ordinal='5' />
+                  <column datatype='string' name='Population' ordinal='6' />
+                  <column datatype='string' name='Zone concernée' ordinal='7' />
+                  <column datatype='string' name='Code COICOP' ordinal='8' />
+                  <column datatype='string' name='Désignation COICOP' ordinal='9' />
+                  <column datatype='string' name='Série arrêtée' ordinal='10' />
+                  <column datatype='integer' name='Référence INSEE' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Foglio 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Andamento dei prezzi al consumo da Aprile 2022</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='prix-consommation_cleaned' name='federated.0v3fzdb1t0yng21bn3ucy1jydjem' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3fzdb1t0yng21bn3ucy1jydjem'>
+            <column datatype='date' name='[Période]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Valeur]' role='measure' type='quantitative' />
+            <column-instance column='[Valeur]' derivation='Avg' name='[avg:Valeur:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Période]' derivation='None' name='[none:Période:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[none:Période:qk]' scope='cols' value='Periodo' />
+            <format attr='title' class='0' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[avg:Valeur:qk]' scope='rows' value='Valore [€]' />
+            <encoding attr='space' class='0' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[avg:Valeur:qk]' field-type='quantitative' max='110.27470530273452' min='80.0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[none:Période:qk]' field-type='quantitative' major-origin='#2022-09-01#' major-spacing='10.0' major-units='days' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' data-class='total' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[avg:Valeur:qk]' value='12' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[none:Période:qk]' value='*dd/mm/yy' />
+            <format attr='text-orientation' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[none:Période:qk]' value='90' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[avg:Valeur:qk]' value='12' />
+            <format attr='font-size' field='[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[none:Période:qk]' value='12' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878' fontsize='12'>Période:&#9;</run>
+                <run bold='true' fontsize='12'><![CDATA[<[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[none:Période:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878' fontsize='12'>Med. Valeur:&#9;</run>
+                <run bold='true' fontsize='12'><![CDATA[<[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[avg:Valeur:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4832596778869629' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-color' value='#0055ff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[avg:Valeur:qk]</rows>
+        <cols>[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[none:Période:qk]</cols>
+      </table>
+      <simple-id uuid='{69922D75-0611-4C0C-8500-14B92C74A5C1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Foglio 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='185'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0v3fzdb1t0yng21bn3ucy1jydjem].[yr:Période:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5C38F98A-70AA-4C93-B76E-6018BFC30E52}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='288' name='Foglio 1' width='288'>
+      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
+      kwZmpFtbdwL3TpjgDNy3CFx1OB2Y5kqptcaMaqqKd3cR2LYdB8hNxtXdO6BTbScUXJzVxOyi
+      Go+3avr2oDbjHrW0NskjAoSDK56Uppa2LmNPptdoeicfXAQ+XiE1by0Ct1RtLQJ/wXtnDpJd
+      2hl1UM1NDRrr69RaVMr3Je8EiJ1RsR+tb0o/fs+n6mJXuQFXfdMe9U06j1gEdtVS5errzyXV
+      XOmqucqMZhrLH32/TCz28J8fdLuyM6rchEYHe5VVUqPCgJRMmmPZGRVPu1BYGpo1o5j+aWlk
+      ThqaufuStvl/3eeR6svMPTNfPZ1eo2mulEoKnK3jeNrN4+zKzqhVdfXq+/ymSrxZiibKFPB6
+      2BkVT43lNROZ/mnzfWhrTWZ0zkQmNUb3OObjBo0V0teek9oHpeeOSj/4jpk2PQ2LwPsdi9A4
+      cNytS9mpwPRPm8ikYrO4lj7W65FqSszaTH2ZGcE0VZivhgopN2Dv93gWEKADJJlManZ2VpWV
+      lZqamlI4HFZjY6OWl5eVlZWl3NxcSebSaV5envx+v65du6ampib19vYqFovphRdeUGGhxRtJ
+      nlAiKc2spKdLg9Ppq0vDs9JqOH2s3yvVlZo1mONbgUn9ua5UymYkYw01OED6+/s1MDCgixcv
+      6tq1a8rLy1NhYaHa29vV2tqqpqYmRSIRffjhh3rhhRfk9XrV2tqq9957T9/5znd05cqVp+oi
+      QTwhTSyZuIzMmZHM4FZgBmakcDR9bLZfOlZqrixdOGVGM8crTWjqSk2EHqerq0vz8/N66aWX
+      9MEHH+jw4cM6fvy4rly5onfeeUcej0ednZ2amJhQU1OTlpeXNTc3p1deeUXXrl1TLBbThQsX
+      7oQej0eADpDW1lbNzMwoGo2qqKhIFRUVWllZ0ZkzZxSJmCdDZWVl6fTp05Kk8vJyvfvuu3r+
+      +ecVjUYVDodVVFS0p+ccjZvHc6bWYQZnzJ/7p6XbC+ahVyn52ebjBI0V0tefN3FpLDcjmpoS
+      M53aidOnT+vKlSvq6enRq6++qs8++0xlZWWqqKi4c8zt27f11ltv6d1331VOTo4uXLigTz75
+      RMFgUB6PR9FolAB9AQToAOnq6tKNGzfU0NCgmZkZTU5O6hvf+Ibee+89JRIJhUIhNTU1qb29
+      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
+      daTZuTnl5/DwMgAPx75gAKzh8YYArCFAAKwhQACsIUAArCFAAKwhQACsIUAArCFAAKwhQACs
+      IUAArCFAAKwhQACsIUAArCFAAKwhQACsIUAArCFAAKwhQACsIUAArCFAAKzJaIAi4TWNjk9J
+      klYW5zQ5M5/JlwdwwGRwiwpXtwaGVV99RH3DEzqcn63I/JhWDpfq0NbOPMlkUvF4PHNvCWBf
+      y+geOXnZfs0sbWgzElUyENe6r0ANgfTOqI7jyONh1gfAyGCAHBUWFmpufl6VVbW63t6h+qZ6
+      RRNSwOe7sy8YAQKQwsaEAKxhOALAGgIEwBoCBMAaAgTAGgIEwBoCBMAaAgTAGgIEwBoCBMAa
+      AgTAGgIEwBoCBMAaAgTAGgIEwBoCBMAaAgTAGgIEwBoCBMAaAgTAGgIEwBoCBMCajG5MODo0
+      oLW1dVU1ntTsaJ+iCui5UyfkZO5NABwgGd0jJxgKq62tRZ2d15SdX6dyz7KWNqUin9mY0HVd
+      7dEuQAD2gYzuC7a5vqrxyQnFkpLr5qjAs65DDadU6GdfMAAPyugaUCgUUjzpV0vLCRXmJBUN
+      FKnQn8l3AHCQsDMqAGu4CgbAGgIEwBoCBMAaAgTAGgIEwBoCBMAaAgTAGgIEwBoCBMAaAgTA
+      GgIEwBoCBMAaAgTAGgIEwBoCBMAaAgTAGgIEwBoCBMAaAgTAGgIEwJqMBii2ua6hkdtKuq6W
+      52c0M7+UyZcHcMBkdIuKnlsDaj1+TD19fUpEHeVoUwWHDyvPa/55MplUPB7P5FsC2McyujVz
+      lsdV361BFVcc1fTokMLyqN6R4nGzM6rjOPJ4mPUBMP4fYCB+TbmbpkkAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

@@ -1,0 +1,1119 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='prix-des-carburants-cleaned' inline='true' name='federated.17b3au90f3hztr159b7nm0hxj33w' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='prix-des-carburants-cleaned' name='textscan.0dgy3tj00u1z1e19o47x314gabd2'>
+            <connection class='textscan' directory='H:/Drive condivisi/Progetto Big Data/DataSet Puliti' filename='prix-des-carburants-cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0dgy3tj00u1z1e19o47x314gabd2' name='prix-des-carburants-cleaned.csv' table='[prix-des-carburants-cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+            <column datatype='integer' name='Identifiant' ordinal='0' />
+            <column datatype='string' name='Adresse' ordinal='1' />
+            <column datatype='string' name='Nom Commune' ordinal='2' />
+            <column datatype='string' name='Carburant' ordinal='3' />
+            <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm:ssZZZZZ' name='Mise à jour' ordinal='4' />
+            <column datatype='real' name='Prix Gazole' ordinal='5' />
+            <column datatype='real' name='Prix SP95' ordinal='6' />
+            <column datatype='real' name='Prix SP98' ordinal='7' />
+            <column datatype='real' name='Prix GPLc' ordinal='8' />
+            <column datatype='real' name='Prix E10' ordinal='9' />
+            <column datatype='real' name='Prix E85' ordinal='10' />
+            <column datatype='real' name='Code Officiel Département' ordinal='11' />
+            <column datatype='string' name='Nom Officiel Département' ordinal='12' />
+            <column datatype='real' name='Code Officiel Région' ordinal='13' />
+            <column datatype='string' name='Nom Officiel Région' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0dgy3tj00u1z1e19o47x314gabd2' name='prix-des-carburants-cleaned.csv' table='[prix-des-carburants-cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+            <column datatype='integer' name='Identifiant' ordinal='0' />
+            <column datatype='string' name='Adresse' ordinal='1' />
+            <column datatype='string' name='Nom Commune' ordinal='2' />
+            <column datatype='string' name='Carburant' ordinal='3' />
+            <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm:ssZZZZZ' name='Mise à jour' ordinal='4' />
+            <column datatype='real' name='Prix Gazole' ordinal='5' />
+            <column datatype='real' name='Prix SP95' ordinal='6' />
+            <column datatype='real' name='Prix SP98' ordinal='7' />
+            <column datatype='real' name='Prix GPLc' ordinal='8' />
+            <column datatype='real' name='Prix E10' ordinal='9' />
+            <column datatype='real' name='Prix E85' ordinal='10' />
+            <column datatype='real' name='Code Officiel Département' ordinal='11' />
+            <column datatype='string' name='Nom Officiel Département' ordinal='12' />
+            <column datatype='real' name='Code Officiel Région' ordinal='13' />
+            <column datatype='string' name='Nom Officiel Région' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Identifiant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Identifiant]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Identifiant</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adresse</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Adresse]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Adresse</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nom Commune</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nom Commune]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Nom Commune</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carburant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Carburant]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Carburant</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mise à jour</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Mise à jour]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Mise à jour</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prix Gazole</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prix Gazole]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Prix Gazole</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prix SP95</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prix SP95]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Prix SP95</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prix SP98</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prix SP98]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Prix SP98</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prix GPLc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prix GPLc]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Prix GPLc</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prix E10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prix E10]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Prix E10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prix E85</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prix E85]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Prix E85</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code Officiel Département</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Code Officiel Département]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Code Officiel Département</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nom Officiel Département</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nom Officiel Département]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Nom Officiel Département</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code Officiel Région</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Code Officiel Région]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Code Officiel Région</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nom Officiel Région</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nom Officiel Région]</local-name>
+            <parent-name>[prix-des-carburants-cleaned.csv]</parent-name>
+            <remote-alias>Nom Officiel Région</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Prix E10]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Prix E85]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Prix GPLc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Prix Gazole]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Prix SP95]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Prix SP98]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='prix-des-carburants-cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC]' role='measure' type='quantitative' />
+      <column-instance column='[Prix E10]' derivation='Avg' name='[avg:Prix E10:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Prix E85]' derivation='Avg' name='[avg:Prix E85:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Prix GPLc]' derivation='Avg' name='[avg:Prix GPLc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Prix Gazole]' derivation='Avg' name='[avg:Prix Gazole:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Prix SP95]' derivation='Avg' name='[avg:Prix SP95:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Prix SP98]' derivation='Avg' name='[avg:Prix SP98:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:10]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-5' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:12]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-6' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:14]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-7' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:16]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-8' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:18]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-9' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:20]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-10' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:22]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-11' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:24]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-12' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:26]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-13' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:28]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-14' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-1' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:30]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-15' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:32]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-16' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:34]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-17' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:36]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-18' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:38]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-19' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:3]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:40]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-20' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:42]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-21' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:44]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-22' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:46]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-23' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:48]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-24' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:4]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='0' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:50]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-25' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:52]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-26' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:54]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-27' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:56]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-28' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:58]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-29' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:60]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-30' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:62]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-31' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:64]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-32' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:66]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-33' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:6]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-3' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:8]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-4' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E85]' derivation='Avg' name='[win:avg:Prix E85:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-30' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E85]' derivation='Avg' name='[win:avg:Prix E85:qk:3]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix E85]' derivation='Avg' name='[win:avg:Prix E85:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix GPLc]' derivation='Avg' name='[win:avg:Prix GPLc:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-30' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix GPLc]' derivation='Avg' name='[win:avg:Prix GPLc:qk:3]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix GPLc]' derivation='Avg' name='[win:avg:Prix GPLc:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix Gazole]' derivation='Avg' name='[win:avg:Prix Gazole:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-30' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix Gazole]' derivation='Avg' name='[win:avg:Prix Gazole:qk:3]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix Gazole]' derivation='Avg' name='[win:avg:Prix Gazole:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix SP95]' derivation='Avg' name='[win:avg:Prix SP95:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-30' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix SP95]' derivation='Avg' name='[win:avg:Prix SP95:qk:3]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix SP95]' derivation='Avg' name='[win:avg:Prix SP95:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix SP98]' derivation='Avg' name='[win:avg:Prix SP98:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-30' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix SP98]' derivation='Avg' name='[win:avg:Prix SP98:qk:3]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Prix SP98]' derivation='Avg' name='[win:avg:Prix SP98:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[avg:Prix Gazole:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix Gazole:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix Gazole:qk:3]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix Gazole:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[avg:Prix GPLc:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix GPLc:qk:2]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix GPLc:qk:3]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix GPLc:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[avg:Prix E10:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:10]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:12]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:14]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:16]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:18]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:2]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:20]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:22]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:24]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:26]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:28]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:3]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:30]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:32]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:34]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:36]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:38]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:4]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:40]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:42]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:44]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:46]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:48]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:50]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:52]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:54]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:56]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:58]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:6]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:60]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:62]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:64]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:66]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:8]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[avg:Prix SP95:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP95:qk:2]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP95:qk:3]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP95:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[avg:Prix SP98:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP98:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP98:qk:3]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP98:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[avg:Prix E85:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E85:qk:2]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E85:qk:3]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E85:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;IT&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='prix-des-carburants-cleaned.csv' id='prix-des-carburants-cleaned.csv_FE83BAF97A5344B2A7951E524E4B17AC'>
+            <properties context=''>
+              <relation connection='textscan.0dgy3tj00u1z1e19o47x314gabd2' name='prix-des-carburants-cleaned.csv' table='[prix-des-carburants-cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+                  <column datatype='integer' name='Identifiant' ordinal='0' />
+                  <column datatype='string' name='Adresse' ordinal='1' />
+                  <column datatype='string' name='Nom Commune' ordinal='2' />
+                  <column datatype='string' name='Carburant' ordinal='3' />
+                  <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm:ssZZZZZ' name='Mise à jour' ordinal='4' />
+                  <column datatype='real' name='Prix Gazole' ordinal='5' />
+                  <column datatype='real' name='Prix SP95' ordinal='6' />
+                  <column datatype='real' name='Prix SP98' ordinal='7' />
+                  <column datatype='real' name='Prix GPLc' ordinal='8' />
+                  <column datatype='real' name='Prix E10' ordinal='9' />
+                  <column datatype='real' name='Prix E85' ordinal='10' />
+                  <column datatype='real' name='Code Officiel Département' ordinal='11' />
+                  <column datatype='string' name='Nom Officiel Département' ordinal='12' />
+                  <column datatype='real' name='Code Officiel Région' ordinal='13' />
+                  <column datatype='string' name='Nom Officiel Région' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Evidenzia 1 (generato)' name='[Action1_0AA1AECF6E294E4987B31C9D530871DA]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Foglio 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Nomi misure' />
+        <param name='target' value='Foglio 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Foglio 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='16'>Andamento dei prezzi dei carburanti da Aprile 2022 - media mobile a 60 giorni</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='prix-des-carburants-cleaned' name='federated.17b3au90f3hztr159b7nm0hxj33w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17b3au90f3hztr159b7nm0hxj33w'>
+            <column datatype='datetime' name='[Mise à jour]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Prix E10]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Prix E85]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Prix GPLc]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Prix Gazole]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Prix SP95]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Prix SP98]' role='measure' type='quantitative' />
+            <column-instance column='[Mise à jour]' derivation='Day-Trunc' name='[tdy:Mise à jour:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Prix E10]' derivation='Avg' name='[win:avg:Prix E10:qk:3]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+            <column-instance column='[Prix E85]' derivation='Avg' name='[win:avg:Prix E85:qk:3]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+            <column-instance column='[Prix GPLc]' derivation='Avg' name='[win:avg:Prix GPLc:qk:3]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+            <column-instance column='[Prix Gazole]' derivation='Avg' name='[win:avg:Prix Gazole:qk:3]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+            <column-instance column='[Prix SP95]' derivation='Avg' name='[win:avg:Prix SP95:qk:3]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+            <column-instance column='[Prix SP98]' derivation='Avg' name='[win:avg:Prix SP98:qk:2]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-30' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+            <column-instance column='[Prix SP98]' derivation='Avg' name='[win:avg:Prix SP98:qk:3]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-60' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17b3au90f3hztr159b7nm0hxj33w].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:3]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E85:qk:3]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix GPLc:qk:3]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix Gazole:qk:3]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP95:qk:3]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP98:qk:3]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.17b3au90f3hztr159b7nm0hxj33w].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E10:qk:3]&quot;</bucket>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix E85:qk:3]&quot;</bucket>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix GPLc:qk:3]&quot;</bucket>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix Gazole:qk:3]&quot;</bucket>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP95:qk:3]&quot;</bucket>
+              <bucket>&quot;[federated.17b3au90f3hztr159b7nm0hxj33w].[win:avg:Prix SP98:qk:2]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.17b3au90f3hztr159b7nm0hxj33w].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.17b3au90f3hztr159b7nm0hxj33w].[Multiple Values]' scope='rows' value='Prezzo [€/l]' />
+            <format attr='title' class='0' field='[federated.17b3au90f3hztr159b7nm0hxj33w].[tdy:Mise à jour:qk]' scope='cols' value='Giorno' />
+            <encoding attr='space' class='0' field='[federated.17b3au90f3hztr159b7nm0hxj33w].[tdy:Mise à jour:qk]' field-type='quantitative' major-origin='#2022-10-07 00:00:00#' major-spacing='10' major-units='days' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' data-class='subtotal' value='9' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.17b3au90f3hztr159b7nm0hxj33w].[tdy:Mise à jour:qk]' value='90' />
+            <format attr='text-format' field='[federated.17b3au90f3hztr159b7nm0hxj33w].[tdy:Mise à jour:qk]' value='*dd/mm/yy' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-size' value='10' />
+            <format attr='color' value='#000000' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.17b3au90f3hztr159b7nm0hxj33w].[:Measure Names]' value='Legenda prezzi' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.17b3au90f3hztr159b7nm0hxj33w].[tdy:Mise à jour:qk]' value='12' />
+            <format attr='font-size' field='[federated.17b3au90f3hztr159b7nm0hxj33w].[Multiple Values]' value='12' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.17b3au90f3hztr159b7nm0hxj33w].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5052486658096313' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-range-min' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.17b3au90f3hztr159b7nm0hxj33w].[Multiple Values]</rows>
+        <cols>[federated.17b3au90f3hztr159b7nm0hxj33w].[tdy:Mise à jour:qk]</cols>
+      </table>
+      <simple-id uuid='{06C16454-A5E7-4A8E-8F6D-487A09778FF9}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Foglio 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='294'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='1' param='[federated.17b3au90f3hztr159b7nm0hxj33w].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.17b3au90f3hztr159b7nm0hxj33w].[avg:Prix GPLc:qk]</field>
+            <field>[federated.17b3au90f3hztr159b7nm0hxj33w].[yr:Mise à jour:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F55F1662-22D6-4DC4-8FD7-3787DA196C9D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='288' name='Foglio 1' width='288'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
