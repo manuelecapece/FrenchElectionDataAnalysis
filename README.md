@@ -9,7 +9,7 @@ Il progetto è stato realizzato attraverso dei Notebook Google Colab facendo amp
 Per ottenere una spiegazione sono state effettuate una serie di query tramite Pandas e prodotti vari grafici servendosi di Tableau.
 Nel report sono presenti tutti i dettagli relativi allo sviluppo del progetto e le considerazioni raggiunte sulla questione. 
 # ENG
-BIG DATA Exam Project year 2022/23 - Università degli studi della Basilicata
+BIG DATA Exam Project for the year 2022/23 - Università degli studi della Basilicata
 
 This repository contains the project carried out for the Big Data course exam at the University of Basilicata, taught by Prof. C. Sartiani. The purpose of the project is to analyze data related to the French population regarding the 2022 presidential and legislative elections. The goal is to provide an explanation for the violent protests that occurred in the spring of 2023 in France due to the proposed law to raise the retirement age from 62 to 64 years.
 
