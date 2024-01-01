@@ -16,3 +16,6 @@ This repository contains the project carried out for the Big Data course exam at
 The project was implemented using Google Colab notebooks, making extensive use of Python for data science. To obtain an explanation, a series of queries were performed using Pandas, and various charts resulting from visual analyses using Seaborn and Tableau.
 The report contains all the details related to the project's development and the conclusions reached on the matter.
 
+![Testo alternativo](https://github.com/manuelecapece/FrenchElectionDataAnalysis/blob/main/AnalisiVisuali/carburanteGiornoPerGiorno.jpg)
+
+
